@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(194, 108, 9);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(194, 108, 9);
+}
+
+#cabecalho .nav .nav-link,
+.title,
+.nav-cardapio .nav-link.active:hover {
+    color:#fff;
+}
+
+.title {
+    font-style: italic;
+}
+
+.navbar-toggler {
+    background-color: rgb(243, 176, 98);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-family: "Source Code Pro";
+
+}
+
+#sobre {
+    background-color: rgb(248, 219, 185);
+}
+
+.text-colored {
+    color: rgb(194, 108, 9);
+} 
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(194, 108, 9);
+    color:#fff;
+}
+
+#fale-conosco button:hover {
+    background-color: rgb(172, 131, 85);
+    color:rgb(83, 46, 3);    
+    transition: 0.5s;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(194, 108, 9);
+}
+
+.img-menu {
+    height: 300px;
+    object-fit: cover;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco {
+    background-color: rgb(248, 234, 218);
+}
